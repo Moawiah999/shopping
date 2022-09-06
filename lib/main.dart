@@ -33,8 +33,7 @@ class _HomeState extends State<Home> {
         decoration: BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.cover,
-            image: NetworkImage(
-                "https://cdn.pixabay.com/photo/2017/09/26/21/47/shopping-cart-2790225__340.png"),
+            image: AssetImage("images/images_1.webp"),
           ),
         ),
         child: Column(
@@ -47,6 +46,7 @@ class _HomeState extends State<Home> {
                 child: Text(
                   "Welcome",
                   style: TextStyle(
+                      // fontFamily: ,
                       fontSize: 50,
                       fontWeight: FontWeight.bold,
                       color: Colors.lightBlue[400]),
